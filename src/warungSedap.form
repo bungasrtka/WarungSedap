@@ -68,12 +68,12 @@
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jmlHarga" min="-2" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jRadioButton4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jRadioButton5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="RBSA" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="MSMG" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="RBSK" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="RBN" alignment="0" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
@@ -104,18 +104,18 @@
                                                                   </Group>
                                                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                                      <Component id="jTextField9" alignment="0" pref="97" max="32767" attributes="0"/>
-                                                                      <Component id="jTextField8" alignment="0" max="32767" attributes="0"/>
-                                                                      <Component id="jTextField7" alignment="0" max="32767" attributes="0"/>
-                                                                      <Component id="jTextField10" alignment="0" max="32767" attributes="0"/>
-                                                                      <Component id="jTextField11" max="32767" attributes="0"/>
+                                                                      <Component id="jmlSA" alignment="0" pref="97" max="32767" attributes="0"/>
+                                                                      <Component id="jmlMG" alignment="0" max="32767" attributes="0"/>
+                                                                      <Component id="jmlNG" alignment="0" max="32767" attributes="0"/>
+                                                                      <Component id="jmlSK" alignment="0" max="32767" attributes="0"/>
+                                                                      <Component id="jmlN" max="32767" attributes="0"/>
                                                                   </Group>
                                                               </Group>
                                                           </Group>
                                                       </Group>
                                                   </Group>
                                               </Group>
-                                              <Component id="jRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="RBNG" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
                                       </Group>
@@ -141,37 +141,37 @@
                   <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RBNG" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jmlNG" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MSMG" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextField8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jmlMG" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RBSA" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextField9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jmlSA" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RBSK" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextField10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jmlSK" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RBN" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextField11" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jmlN" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                       <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" pref="34" max="32767" attributes="0"/>
@@ -181,7 +181,7 @@
                   </Group>
                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jmlHarga" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
@@ -307,7 +307,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+        <Component class="javax.swing.JRadioButton" name="RBNG">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Nirmala UI" size="12" style="0"/>
@@ -315,43 +315,58 @@
             <Property name="text" type="java.lang.String" value="Nasi Goreng"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RBNGActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+        <Component class="javax.swing.JRadioButton" name="MSMG">
           <Properties>
             <Property name="text" type="java.lang.String" value="Mie Goreng"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MSMGActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+        <Component class="javax.swing.JRadioButton" name="RBSA">
           <Properties>
             <Property name="text" type="java.lang.String" value="Soto Ayam"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RBSAActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+        <Component class="javax.swing.JRadioButton" name="RBSK">
           <Properties>
             <Property name="text" type="java.lang.String" value="Sop Kambing"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RBSKActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+        <Component class="javax.swing.JRadioButton" name="RBN">
           <Properties>
             <Property name="text" type="java.lang.String" value="Nasi"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RBNActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="text" type="java.lang.String" value="Hitung&#xa;"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
             <Property name="text" type="java.lang.String" value="Hapus"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="jmlHarga">
           <Properties>
             <Property name="text" type="java.lang.String" value="Jumlah Harga&#xa;"/>
           </Properties>
@@ -362,6 +377,9 @@
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="jTextField3">
           <Properties>
@@ -398,26 +416,26 @@
             <Property name="text" type="java.lang.String" value="Exit"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField7">
+        <Component class="javax.swing.JTextField" name="jmlNG">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField7ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmlNGActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField8">
+        <Component class="javax.swing.JTextField" name="jmlMG">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField8ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmlMGActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField9">
+        <Component class="javax.swing.JTextField" name="jmlSA">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField10">
+        <Component class="javax.swing.JTextField" name="jmlSK">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField10ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmlSKActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField11">
+        <Component class="javax.swing.JTextField" name="jmlN">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField11ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmlNActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
