@@ -75,8 +75,8 @@ public class warungSedap extends javax.swing.JFrame {
         RBSK = new javax.swing.JRadioButton();
         RBN = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jmlHarga = new javax.swing.JLabel();
+        hapus = new javax.swing.JButton();
+        label = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
@@ -220,14 +220,14 @@ public class warungSedap extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("Hapus");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        hapus.setText("Hapus");
+        hapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                hapusActionPerformed(evt);
             }
         });
 
-        jmlHarga.setText("Jumlah Harga\n");
+        label.setText("Jumlah Harga\n");
 
         jTextField2.setEditable(false);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -321,7 +321,7 @@ public class warungSedap extends javax.swing.JFrame {
                                             .addComponent(RBNG)
                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                    .addComponent(jmlHarga)
+                                                    .addComponent(label)
                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                         .addComponent(RBSA)
                                                         .addComponent(MSMG)
@@ -340,7 +340,7 @@ public class warungSedap extends javax.swing.JFrame {
                                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                .addComponent(jButton2))
+                                                                .addComponent(hapus))
                                                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                                                 .addGap(29, 29, 29)
                                                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -403,10 +403,10 @@ public class warungSedap extends javax.swing.JFrame {
                 .addGap(18, 22, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(hapus))
                 .addGap(33, 33, 33)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jmlHarga)
+                    .addComponent(label)
                     .addComponent(jmlharga, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(56, 56, 56)
                 .addComponent(jButton3)
@@ -430,12 +430,12 @@ public class warungSedap extends javax.swing.JFrame {
 
     private void RBMGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBMGActionPerformed
         // TODO add your handling code here:   
-        int nasigoreng=15000;
-        if(RBNG.isSelected()){
-            jTextField2.setText("" +RBNG.getText());
-            jTextField2.setText("" +nasigoreng);
+        int miegoreng=15000;
+        if(RBMG.isSelected()){
+            jTextField3.setText("" +RBMG.getText());
+            jTextField3.setText("" +miegoreng);
         }else{
-            jTextField2.setText("");
+            jTextField3.setText("");
         }
     }//GEN-LAST:event_RBMGActionPerformed
 
@@ -453,10 +453,10 @@ public class warungSedap extends javax.swing.JFrame {
         // TODO add your handling code here:
          int sopkambing=25000;
         if(RBSK.isSelected()){
-            jTextField2.setText("" +RBSK.getText());
-            jTextField2.setText("" +sopkambing);
+            jTextField5.setText("" +RBSK.getText());
+            jTextField5.setText("" +sopkambing);
         }else{
-             jTextField2.setText("");
+             jTextField5.setText("");
         }
     }//GEN-LAST:event_RBSKActionPerformed
 
@@ -491,8 +491,8 @@ public class warungSedap extends javax.swing.JFrame {
     private void MSMGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MSMGActionPerformed
         // TODO add your handling code here:
          int miegoreng=15000;
-        if(RBMG.isSelected()){
-            jTextField3.setText("" +RBMG.getText());
+        if(MSMG.isSelected()){
+            jTextField3.setText("" +MSMG.getText());
             jTextField3.setText("" +miegoreng);
         }else{
             jTextField3.setText("");
@@ -559,24 +559,24 @@ public class warungSedap extends javax.swing.JFrame {
             int HargaNS=jmlNS*5000;
             total=total+HargaNS;
             }
-            jmlHarga.setText("" +total);
+            jmlharga.setText("" +total);
                                          
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void hapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hapusActionPerformed
         // TODO add your handling code here:
-        jTextField2.setEditable(false);
-        jTextField2.setText("");
-        jTextField3.setEditable(false);
-        jTextField3.setText("");
-        jTextField4.setEditable(false);
-        jTextField4.setText("");
-        jTextField5.setEditable(false);
-        jTextField5.setText("");
-        jTextField6.setEditable(false);
-        jTextField6.setText("");
+        jmlNG.setEditable(false);
+        jmlNG.setText("");
+        jmlMG.setEditable(false);
+        jmlMG.setText("");
+        jmlSA.setEditable(false);
+        jmlSA.setText("");
+        jmlSK.setEditable(false);
+        jmlSK.setText("");
+        jmlN.setEditable(false);
+        jmlN.setText("");
         jmlharga.setText("");
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_hapusActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
@@ -596,8 +596,8 @@ public class warungSedap extends javax.swing.JFrame {
     private javax.swing.JRadioButton RBNG;
     private javax.swing.JRadioButton RBSA;
     private javax.swing.JRadioButton RBSK;
+    private javax.swing.JButton hapus;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
@@ -615,12 +615,12 @@ public class warungSedap extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
-    private javax.swing.JLabel jmlHarga;
     private javax.swing.JTextField jmlMG;
     private javax.swing.JTextField jmlN;
     private javax.swing.JTextField jmlNG;
     private javax.swing.JTextField jmlSA;
     private javax.swing.JTextField jmlSK;
     private javax.swing.JTextField jmlharga;
+    private javax.swing.JLabel label;
     // End of variables declaration//GEN-END:variables
 }
